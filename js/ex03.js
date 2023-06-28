@@ -5,22 +5,12 @@
 
 const javascript1 = ["DOM", "BOM", "Funciones", "Arrays"];
 
-// Eliminar "DOM" del array
 javascript1.shift();
-
-// Añadir "Objetos" en lugar de "DOM"
 javascript1.push("Objetos");
-
-// Eliminar "Arrays" del array
 javascript1.length - 1;
-
-// Añadir "ArraysDifíciles" en lugar de "Arrays"
 javascript1.push("ArraysDifíciles");
 
-// Crear una copia del array con los últimos dos elementos
 const javascript2 = javascript1.slice(-2);
-
-// Obtener el índice del elemento "Funciones"
 const indice = javascript1.indexOf("Funciones");
 
 console.log(javascript1);

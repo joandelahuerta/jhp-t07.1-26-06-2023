@@ -20,7 +20,6 @@ const receta3 = {
 
 const recetas = [receta1, receta2, receta3];
 
-  // Función para imprimir una receta
 function imprimirReceta(receta) {
     console.log("Nombre: " + receta.nombre);
     console.log("Tiempo de preparación: " + receta.tiempoPreparacion);

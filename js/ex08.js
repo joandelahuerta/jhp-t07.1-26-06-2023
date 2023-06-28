@@ -5,7 +5,7 @@
 const javascript1 = ["DOM", "BOM", "Funciones", "Arrays"];
 const javascript2 = ["Objetos", "Arrays", "ParseInt"];
 
-function encontrarElementoRepetido(array1, array2) {
+function elementoRepetido(array1, array2) {
 const repetidos = [];
 array1.forEach((elemento) => {
 if (array2.includes(elemento)) {
@@ -14,10 +14,10 @@ if (array2.includes(elemento)) {
 });
 
 if (repetidos.length > 0) {
-    console.log("Elemento repetido:", repetidos);
+    console.log("Elemento repetido: " + repetidos);
     } else {
-    console.log("No hay ningun elemento repetido.");
+    console.log("No hay elementos repetidos.");
     }
 }
 
-encontrarElementoRepetido(javascript1, javascript2);
+elementoRepetido(javascript1, javascript2);

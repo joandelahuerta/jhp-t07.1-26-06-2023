@@ -17,7 +17,6 @@ function intercalar(array1, array2) {
     array2.length = 0;
     return array3;
 }
-  // Ejemplo de uso
 
 const resultado = intercalar(array1, array2);
 
